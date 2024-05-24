@@ -1,0 +1,24 @@
+package revisaodaprova7;
+
+public class Revisaodaprova7 {
+    
+    public static void parImpar(){
+        int[] vetor = new int[]{6, 3, 8, 10,7,8,5};
+        
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 == 0) {
+                System.out.println("sao pares: " + vetor[i]);
+            } else {
+                System.out.println("sao impares: " + vetor[i]);
+            }
+
+        }
+    }
+
+    public static void main(String[] args) {
+        
+        parImpar();
+      
+    }
+
+}

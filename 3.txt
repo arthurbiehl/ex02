@@ -1,0 +1,41 @@
+package revisaodaprova3;
+
+import java.util.Scanner;
+
+public class Revisaodaprova3 {
+    
+    public static void media(){
+        Scanner ler = new Scanner(System.in);
+
+        int tamanho = 5;
+
+        int[] vetor = new int[tamanho];
+
+        for (int i = 0; i < tamanho; i++) {
+            System.out.println("Numeros1:");
+            vetor[0] = ler.nextInt();
+            System.out.println("Numeros2:");
+            vetor[1] = ler.nextInt();
+            System.out.println("Numeros3:");
+            vetor[2] = ler.nextInt();
+            System.out.println("Numeros4:");
+            vetor[3] = ler.nextInt();
+            System.out.println("Numeros5:");
+            vetor[4] = ler.nextInt();
+            break;
+
+        }
+
+        int conta = vetor[0] + vetor[1] + vetor[2] + vetor[3] + vetor[4];
+        int conta2 = conta / tamanho;
+        System.out.println("soma: " + conta);
+        System.out.println("media: " + conta2);
+    }
+
+    public static void main(String[] args) {
+        
+        media();
+        
+    }
+
+}
